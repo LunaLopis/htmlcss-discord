@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+/* barra header */
+.row-100 {
+    display: flex;
+    justify-content: center;
+}
+
+.row-85 {
+    margin: 20px;
+    width: calc(85% - 20px);
+    display: flex;
+}
+
+.row-85 .col {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.centro {
+    width: calc(80%);
+    justify-content: center;
+}
+
+.between {
+    width: calc(20% / 2);
+}
+
+.center {
+    text-align: center;
+}
+
+.center span {
+    padding: 0px 0px 0px 20px;
+}
+
+.text-right button {
+    border-radius: 20px 20px;
+    padding: 5px 10px;
+    border-radius: 30px 30px;
+}
+
+/* FINE barra, inizio contenuto jambo*/
+.content.pink {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    width: calc(50%);
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: calc(60%);
+    height: 300px;
+}
+
+.titolo {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.download button {
+    margin: 40px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px 30px;
+}
+
+
+/* fine box blu ed header, inizio main */
+
+.container>.col {
+    width: calc(80%);
+    display: flex;
+}
+
+.container .right {
+    width: calc(60%);
+}
+
+.container .left {
+    width: calc(40%);
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+/* fine zezione main bianca */
+
+.reverse .col {
+    margin: 20px;
+    width: calc(80% - 20px);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.green {
+    width: calc(80% - 20px);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.green button {
+    margin: 40px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px 30px;
+}
+
+/* fine sezione con box verde */
+
+.darkgrey .content {
+    width: calc(80% - 20px);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+
+.darkgrey .col {
+    width: calc(80%/5);
+}
+
+.col.bigger {
+    width: calc(20%);
+    flex-grow: 1;
+}
+
+.row-100-bottoni {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1px 0;
+    margin-bottom: 2px;
+}
+
+.row-100.fine {
+    display: flex;
+    
+}
+
+.row-85.bottone {
+    width: calc(80% - 20px);
+    justify-content: space-between;
+
+}
+
+.click {
+    padding: 5px 7px;
+}
+
+footer {
+    background-color: rgba(35,39,42,255);
+}
