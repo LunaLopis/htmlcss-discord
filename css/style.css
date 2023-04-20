@@ -3,31 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 header {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     margin-bottom: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
-/* barra header */
 .row-100 {
     display: flex;
     justify-content: center;
 }
 
-.row-85 {
+.row-80 {
     margin: 20px;
-    width: calc(85% - 20px);
+    width: calc(80% - 20px);
     display: flex;
 }
 
-.row-85 .col {
-    display: flex;
-}
-
-.menu {
+.row-80 .col {
     display: flex;
 }
 
@@ -36,31 +34,23 @@ header {
     justify-content: center;
 }
 
-.between {
-    width: calc(20% / 2);
-}
-
-.center {
-    text-align: center;
-}
-
 .center span {
     padding: 0px 0px 0px 20px;
+    color: white;
 }
 
 .text-right button {
-    border-radius: 20px 20px;
     padding: 5px 10px;
     border-radius: 30px 30px;
 }
 
-/* FINE barra, inizio contenuto jambo*/
-.content.pink {
+/* INIZIO jambo*/
+.content.jambo {
     color: white;
     text-align: center;
     margin: 50px;
-    width: calc(50%);
-    padding: 10px;
+    width: calc(50% - 60px);
+    padding: 30px;
 }
 
 .container {
@@ -80,16 +70,18 @@ header {
     margin-bottom: 30px;
 }
 
-.download button {
+.accedi button {
     margin: 40px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     border-radius: 30px 30px;
 }
+#black {
+    background-color: rgba(35, 39, 42, 255);
+    color: white; 
+}
 
-
-/* fine box blu ed header, inizio main */
-
+/*inizio 1° sez. main*/
 .container>.col {
     width: calc(80%);
     display: flex;
@@ -106,7 +98,7 @@ header {
     margin-left: 170px;
 }
 
-/* fine zezione main bianca */
+/* 1° sez. reverse */
 
 .reverse .col {
     margin: 20px;
@@ -115,6 +107,7 @@ header {
     flex-direction: row-reverse;
 }
 
+/* 2° sez. main */
 .green {
     width: calc(80% - 20px);
     margin-top: 20px;
@@ -128,49 +121,65 @@ header {
     border-radius: 30px 30px;
 }
 
-/* fine sezione con box verde */
-
-.darkgrey .content {
-    width: calc(80% - 20px);
+/* footer */
+.tab-info .content {
+    width: calc(80% - 30px);
     flex-direction: column;
     display: flex;
     justify-content: center;
     flex-direction: row;
     color: white;
+    margin-top: 30px;
+    padding-top: 30px;
 }
 
-.darkgrey .col {
+.tab-info .col {
     width: calc(80%/5);
 }
 
-.col.bigger {
+.col-first {
     width: calc(20%);
     flex-grow: 1;
 }
 
-.row-100-bottoni {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 1px 0;
-    margin-bottom: 2px;
-}
-
+/* riga finale con bottoni */
 .row-100.fine {
     display: flex;
-    
+    margin-top: 70px;
 }
 
-.row-85.bottone {
+.row-80.bottone {
     width: calc(80% - 20px);
     justify-content: space-between;
-
-}
-
-.click {
-    padding: 5px 7px;
+    border-top: 1px solid white;
+    padding-top: 30px;
 }
 
 footer {
-    background-color: rgba(35,39,42,255);
+    background-color: rgba(35, 39, 42, 255);
+}
+
+.blu {
+    color: rgba(95,113,176,255);
+}
+
+.col-first img {
+ width: 30px; 
+ vertical-align: bottom;  
+}
+
+.container.tab-info h4, span {
+margin: 5px;
+}
+
+#azzurro {
+    background-color:rgba(142,161,225,255); 
+}
+
+.sottotesto {
+    margin-top: 20px;
+}
+
+.contacts {
+    font-size: 20px; 
 }
